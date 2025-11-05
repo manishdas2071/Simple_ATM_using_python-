@@ -43,6 +43,27 @@ def withdraw(username):
 
 
 # main Menu
+def atm_menu(username):
+    while True:
+        print("\n=== ATM MENU ===")
+        print("1. Check Balance")
+        print("2. Deposit")
+        print("3. Withdraw")
+        print("4. Exit")
+        choice = input("Choose an option: ")
+
+        if choice == "1":
+            check_balance(username)
+        elif choice == "2":
+            deposit(username)
+        elif choice == "3":
+            withdraw(username)
+        elif choice == "4":
+            print("Thank you for using our ATM!")
+            break
+        else:
+            print("Invalid choice. Please try again.")
+
 
 # ATM menu
 def main():
