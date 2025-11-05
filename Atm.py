@@ -7,8 +7,16 @@ users = {
 }
 
 #Validate User
+def validate_user(username, pin):
+    if username in users and users[username]["pin"] == pin:
+        return True
+    return False
 
 # check balance
+def check_balance(username):
+    print(f"Your current balance is ₹{users[username]['balance']}")
+
+
 
 # deposit
 
