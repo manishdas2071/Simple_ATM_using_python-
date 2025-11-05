@@ -19,6 +19,15 @@ def check_balance(username):
 
 
 # deposit
+def deposit(username):
+    amount = float(input("Enter amount to deposit: ₹"))
+    if amount <= 0:
+        print("Invalid amount.")
+    else:
+        users[username]["balance"] += amount
+        print(f"₹{amount} deposited successfully.")
+        check_balance(username)
+
 
 # withdraw
 
