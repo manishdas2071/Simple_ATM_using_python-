@@ -1,9 +1,9 @@
 users = {
-    "Manjit": {"pin": "1302", "balance": 5000},
-    "Manash": {"pin": "8812", "balance": 3000},
-    "Suraj": {"pin": "9954", "balance": 8000},
-    "Royel": {"pin": "4321", "balance": 8000},
-    "Nabajyoti": {"pin": "9365", "balance": 8000}
+    "manjit": {"pin": "1302", "balance": 5000},
+    "manash": {"pin": "8812", "balance": 3000},
+    "suraj": {"pin": "9954", "balance": 8000},
+    "royel": {"pin": "4321", "balance": 8000},
+    "nabajyoti": {"pin": "9365", "balance": 8000}
 }
 
 #Validate User
